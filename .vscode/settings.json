@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "mrlcdatmega32.h": "c",
+        "stdlib.h": "c"
+    }
+}
