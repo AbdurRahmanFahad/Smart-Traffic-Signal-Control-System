@@ -46,6 +46,7 @@ The algorithm has two context:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. End.<br/>
       
 ## Detailed Pin Diagram
+![diagram](https://user-images.githubusercontent.com/33763183/65352758-3bf35880-dc0d-11e9-8b79-c86c6a2c4bb6.jpeg)
 
 ## Problems Faced
 1. The ATmega32 has 3 timers. We have used timer1 for the sonar while timer0 for determining the time duration a vehicle remains stand still. That's why we have to use one microcontroller for each lane of any road. This leads to increased number of microcontrollers
