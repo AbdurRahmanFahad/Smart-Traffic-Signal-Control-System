@@ -38,12 +38,12 @@ The algorithm has two context:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10. End.<br/>
 <br><br/>
 ### Algorithm for the main controller(server.c):<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Start.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Check whether there is traffic jam in any road.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. If any road is jam packed, inform the microcontroller corresponding to that road to turn on green signal for a certain predefined period of time.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Otherwise, one by one inform a microcontroller to turn on green signal for certain period while others to turn on red signal.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Goto (2).<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. End.<br/>
+1. Start.<br/>
+2. Check whether there is traffic jam in any road.<br/>
+3. If any road is jam packed, inform the microcontroller corresponding to that road to turn on green signal for a certain predefined period of time.<br/>
+4. Otherwise, one by one inform a microcontroller to turn on green signal for certain period while others to turn on red signal.<br/>
+5. Goto (2).<br/>
+6. End.<br/>
       
 ## Detailed Pin Diagram
 ![diagram](https://user-images.githubusercontent.com/33763183/65352758-3bf35880-dc0d-11e9-8b79-c86c6a2c4bb6.jpeg)
