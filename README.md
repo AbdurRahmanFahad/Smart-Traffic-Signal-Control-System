@@ -9,6 +9,9 @@ If there is no traffic jam in any lane, the system sequentially keeps open one l
 * ATmega32 microcontroller
 * Sonar or Ultrasonic Sensor(HC SR04)
 * LED
+## Video Demonstration
+
+[Project Video](https://www.youtube.com/watch?v=_cWAsubleY0&t=31s)
 
 ## How it works?
 In this project ATmega32 microcontroller is used for interfacing to various hardware peripherals. The system has to determine whether there is traffic jam in any road. For doing so, we need to install a sonar above each lane of the road at a certain distance apart from the traffic signal. As the position of the sonar above any lane is fixed, if a vehicle comes below the sonar, the distance measured by sonar will be less than the distance between the sonar and the road. That is, the sonar can detect vehicle using this logic.
