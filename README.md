@@ -1,4 +1,4 @@
-# CSE 316 Project - January 2018
+# CSE 316 Project - 2019
 # Smart Traffic Signal Control System
 ## A Brief Description
 In this Project we have designed a smart traffic signal control system which automatically detects traffic jam and decides which lane should be opened.
